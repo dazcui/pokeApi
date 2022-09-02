@@ -1,0 +1,27 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px 20px;
+  padding-bottom: 100px;
+  margin: 1em;
+}
+.pokedex__consola{
+  display: flex;
+  justify-content: space-around;
+}
+.pokedex__pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin: 1em;
+  padding: 1em;
+}
+.pokedex__pagination button{
+  background-color:#DD1A1A;
+  border: none;
+  height: 40px;
+  width: 40px;
+  color: white;
+}

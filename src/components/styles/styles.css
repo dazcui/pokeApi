@@ -1,0 +1,153 @@
+.det {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.detail {
+    max-width: 800px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 1px 7px #0003;
+    border: 7px solid #B1DBBC;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.detail__header {
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+.detail__avatar {
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+}
+
+.detail__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+.detail__name{
+    margin-top: 4em;
+}
+
+.detail__type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.type__pri {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.type__doc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1em;
+}
+
+.type__doc li {
+    background-color: #85C9C5;
+    margin: 1em;
+    padding: 1em;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+.abilities__pri {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.abilities__doc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1em;
+}
+
+.abilities__doc li {
+    margin: 1em;
+    padding: 1em;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #85C9C5;
+    font-size: 15px;
+}
+
+.stats__pri {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+}
+
+.stats__doc {
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.states_j{
+    display: flex;
+    justify-content: space-between;
+}
+meter{
+    width: 450px;
+    height: 30px;
+}
+.movements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.movements li{
+    background-color: #b8d9d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin: 10px;
+    padding: 10px;
+    height: 30px;
+    width: auto;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.mov__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
